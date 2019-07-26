@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD86B8722E1B432006CAA15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD86B8622E1B432006CAA15 /* AppDelegate.swift */; };
+		CAD86B8922E1B432006CAA15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD86B8822E1B432006CAA15 /* ViewController.swift */; };
+		CAD86B8C22E1B432006CAA15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD86B8A22E1B432006CAA15 /* Main.storyboard */; };
+		CAD86B8E22E1B433006CAA15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD86B8D22E1B433006CAA15 /* Assets.xcassets */; };
+		CAD86B9122E1B433006CAA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD86B8F22E1B433006CAA15 /* LaunchScreen.storyboard */; };
+		CAD86B9C22E1B433006CAA15 /* BirthDayNoteTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD86B9B22E1B433006CAA15 /* BirthDayNoteTakerTests.swift */; };
+		CAD86BA722E1B433006CAA15 /* BirthDayNoteTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD86BA622E1B433006CAA15 /* BirthDayNoteTakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD86B9822E1B433006CAA15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD86B7B22E1B432006CAA15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD86B8222E1B432006CAA15;
+			remoteInfo = BirthDayNoteTaker;
+		};
+		CAD86BA322E1B433006CAA15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD86B7B22E1B432006CAA15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD86B8222E1B432006CAA15;
+			remoteInfo = BirthDayNoteTaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD86B8322E1B432006CAA15 /* BirthDayNoteTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthDayNoteTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD86B8622E1B432006CAA15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAD86B8822E1B432006CAA15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAD86B8B22E1B432006CAA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD86B8D22E1B433006CAA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD86B9022E1B433006CAA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAD86B9222E1B433006CAA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD86B9722E1B433006CAA15 /* BirthDayNoteTakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthDayNoteTakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD86B9B22E1B433006CAA15 /* BirthDayNoteTakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthDayNoteTakerTests.swift; sourceTree = "<group>"; };
+		CAD86B9D22E1B433006CAA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD86BA222E1B433006CAA15 /* BirthDayNoteTakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthDayNoteTakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD86BA622E1B433006CAA15 /* BirthDayNoteTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthDayNoteTakerUITests.swift; sourceTree = "<group>"; };
+		CAD86BA822E1B433006CAA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD86B8022E1B432006CAA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD86B9422E1B433006CAA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD86B9F22E1B433006CAA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD86B7A22E1B432006CAA15 = {
+			isa = PBXGroup;
+			children = (
+				CAD86B8522E1B432006CAA15 /* BirthDayNoteTaker */,
+				CAD86B9A22E1B433006CAA15 /* BirthDayNoteTakerTests */,
+				CAD86BA522E1B433006CAA15 /* BirthDayNoteTakerUITests */,
+				CAD86B8422E1B432006CAA15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD86B8422E1B432006CAA15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD86B8322E1B432006CAA15 /* BirthDayNoteTaker.app */,
+				CAD86B9722E1B433006CAA15 /* BirthDayNoteTakerTests.xctest */,
+				CAD86BA222E1B433006CAA15 /* BirthDayNoteTakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD86B8522E1B432006CAA15 /* BirthDayNoteTaker */ = {
+			isa = PBXGroup;
+			children = (
+				CAD86B8622E1B432006CAA15 /* AppDelegate.swift */,
+				CAD86B8822E1B432006CAA15 /* ViewController.swift */,
+				CAD86B8A22E1B432006CAA15 /* Main.storyboard */,
+				CAD86B8D22E1B433006CAA15 /* Assets.xcassets */,
+				CAD86B8F22E1B433006CAA15 /* LaunchScreen.storyboard */,
+				CAD86B9222E1B433006CAA15 /* Info.plist */,
+			);
+			path = BirthDayNoteTaker;
+			sourceTree = "<group>";
+		};
+		CAD86B9A22E1B433006CAA15 /* BirthDayNoteTakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD86B9B22E1B433006CAA15 /* BirthDayNoteTakerTests.swift */,
+				CAD86B9D22E1B433006CAA15 /* Info.plist */,
+			);
+			path = BirthDayNoteTakerTests;
+			sourceTree = "<group>";
+		};
+		CAD86BA522E1B433006CAA15 /* BirthDayNoteTakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD86BA622E1B433006CAA15 /* BirthDayNoteTakerUITests.swift */,
+				CAD86BA822E1B433006CAA15 /* Info.plist */,
+			);
+			path = BirthDayNoteTakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD86B8222E1B432006CAA15 /* BirthDayNoteTaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD86BAB22E1B433006CAA15 /* Build configuration list for PBXNativeTarget "BirthDayNoteTaker" */;
+			buildPhases = (
+				CAD86B7F22E1B432006CAA15 /* Sources */,
+				CAD86B8022E1B432006CAA15 /* Frameworks */,
+				CAD86B8122E1B432006CAA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirthDayNoteTaker;
+			productName = BirthDayNoteTaker;
+			productReference = CAD86B8322E1B432006CAA15 /* BirthDayNoteTaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD86B9622E1B433006CAA15 /* BirthDayNoteTakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD86BAE22E1B433006CAA15 /* Build configuration list for PBXNativeTarget "BirthDayNoteTakerTests" */;
+			buildPhases = (
+				CAD86B9322E1B433006CAA15 /* Sources */,
+				CAD86B9422E1B433006CAA15 /* Frameworks */,
+				CAD86B9522E1B433006CAA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD86B9922E1B433006CAA15 /* PBXTargetDependency */,
+			);
+			name = BirthDayNoteTakerTests;
+			productName = BirthDayNoteTakerTests;
+			productReference = CAD86B9722E1B433006CAA15 /* BirthDayNoteTakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD86BA122E1B433006CAA15 /* BirthDayNoteTakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD86BB122E1B433006CAA15 /* Build configuration list for PBXNativeTarget "BirthDayNoteTakerUITests" */;
+			buildPhases = (
+				CAD86B9E22E1B433006CAA15 /* Sources */,
+				CAD86B9F22E1B433006CAA15 /* Frameworks */,
+				CAD86BA022E1B433006CAA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD86BA422E1B433006CAA15 /* PBXTargetDependency */,
+			);
+			name = BirthDayNoteTakerUITests;
+			productName = BirthDayNoteTakerUITests;
+			productReference = CAD86BA222E1B433006CAA15 /* BirthDayNoteTakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD86B7B22E1B432006CAA15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Yakup;
+				TargetAttributes = {
+					CAD86B8222E1B432006CAA15 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CAD86B9622E1B433006CAA15 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CAD86B8222E1B432006CAA15;
+					};
+					CAD86BA122E1B433006CAA15 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CAD86B8222E1B432006CAA15;
+					};
+				};
+			};
+			buildConfigurationList = CAD86B7E22E1B432006CAA15 /* Build configuration list for PBXProject "BirthDayNoteTaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD86B7A22E1B432006CAA15;
+			productRefGroup = CAD86B8422E1B432006CAA15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD86B8222E1B432006CAA15 /* BirthDayNoteTaker */,
+				CAD86B9622E1B433006CAA15 /* BirthDayNoteTakerTests */,
+				CAD86BA122E1B433006CAA15 /* BirthDayNoteTakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD86B8122E1B432006CAA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD86B9122E1B433006CAA15 /* LaunchScreen.storyboard in Resources */,
+				CAD86B8E22E1B433006CAA15 /* Assets.xcassets in Resources */,
+				CAD86B8C22E1B432006CAA15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD86B9522E1B433006CAA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD86BA022E1B433006CAA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD86B7F22E1B432006CAA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD86B8922E1B432006CAA15 /* ViewController.swift in Sources */,
+				CAD86B8722E1B432006CAA15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD86B9322E1B433006CAA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD86B9C22E1B433006CAA15 /* BirthDayNoteTakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD86B9E22E1B433006CAA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD86BA722E1B433006CAA15 /* BirthDayNoteTakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD86B9922E1B433006CAA15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD86B8222E1B432006CAA15 /* BirthDayNoteTaker */;
+			targetProxy = CAD86B9822E1B433006CAA15 /* PBXContainerItemProxy */;
+		};
+		CAD86BA422E1B433006CAA15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD86B8222E1B432006CAA15 /* BirthDayNoteTaker */;
+			targetProxy = CAD86BA322E1B433006CAA15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD86B8A22E1B432006CAA15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD86B8B22E1B432006CAA15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD86B8F22E1B433006CAA15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD86B9022E1B433006CAA15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD86BA922E1B433006CAA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD86BAA22E1B433006CAA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD86BAC22E1B433006CAA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirthDayNoteTaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tr.BirthDayNoteTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD86BAD22E1B433006CAA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirthDayNoteTaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tr.BirthDayNoteTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAD86BAF22E1B433006CAA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirthDayNoteTakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sbm.org.tr.BirthDayNoteTakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirthDayNoteTaker.app/BirthDayNoteTaker";
+			};
+			name = Debug;
+		};
+		CAD86BB022E1B433006CAA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirthDayNoteTakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sbm.org.tr.BirthDayNoteTakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirthDayNoteTaker.app/BirthDayNoteTaker";
+			};
+			name = Release;
+		};
+		CAD86BB222E1B433006CAA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirthDayNoteTakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sbm.org.tr.BirthDayNoteTakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirthDayNoteTaker;
+			};
+			name = Debug;
+		};
+		CAD86BB322E1B433006CAA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirthDayNoteTakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sbm.org.tr.BirthDayNoteTakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirthDayNoteTaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD86B7E22E1B432006CAA15 /* Build configuration list for PBXProject "BirthDayNoteTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD86BA922E1B433006CAA15 /* Debug */,
+				CAD86BAA22E1B433006CAA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD86BAB22E1B433006CAA15 /* Build configuration list for PBXNativeTarget "BirthDayNoteTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD86BAC22E1B433006CAA15 /* Debug */,
+				CAD86BAD22E1B433006CAA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD86BAE22E1B433006CAA15 /* Build configuration list for PBXNativeTarget "BirthDayNoteTakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD86BAF22E1B433006CAA15 /* Debug */,
+				CAD86BB022E1B433006CAA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD86BB122E1B433006CAA15 /* Build configuration list for PBXNativeTarget "BirthDayNoteTakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD86BB222E1B433006CAA15 /* Debug */,
+				CAD86BB322E1B433006CAA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD86B7B22E1B432006CAA15 /* Project object */;
+}
